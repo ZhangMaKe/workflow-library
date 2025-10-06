@@ -6,6 +6,11 @@ on:
         scan-ref:
             required: true
             type: string
+        trivy-tfvars:
+          required: false
+          type: string
+          default: ''
+          description: 'Optional path to tfvars file for Trivy scanning'
 
 jobs:
   trivy:
@@ -21,3 +26,4 @@ jobs:
             scan-type: config
             scan-ref: ${{ inputs.scan-ref }}
             exit-code: 1
+            tf-vars: ${{ inputs.trivy-tfvars != '' && inputs.trivy-tfvars || '' }}
