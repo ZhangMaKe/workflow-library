@@ -27,3 +27,4 @@ jobs:
             scan-ref: ${{ inputs.scan-ref }}
             exit-code: 1
             tf-vars: ${{ inputs.trivy-tfvars != '' && inputs.trivy-tfvars || '' }}
+            version: v0.67.0
