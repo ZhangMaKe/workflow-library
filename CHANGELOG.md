@@ -1,3 +1,10 @@
+## [1.0.3](https://github.com/ZhangMaKe/workflow-library/compare/v1.0.2...v1.0.3) (2025-10-10)
+
+
+### Bug Fixes
+
+* pinning trivy to version version: v0.67.0 ([33b0abe](https://github.com/ZhangMaKe/workflow-library/commit/33b0abe6d12f62d2bf5a1899a18edb5b58101ac4))
+
 ## [1.0.2](https://github.com/ZhangMaKe/workflow-library/compare/v1.0.1...v1.0.2) (2025-10-10)
 
 
