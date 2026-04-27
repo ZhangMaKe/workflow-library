@@ -1,3 +1,10 @@
+## [1.0.4](https://github.com/ZhangMaKe/workflow-library/compare/v1.0.3...v1.0.4) (2026-04-27)
+
+
+### Bug Fixes
+
+* Merge pull request [#10](https://github.com/ZhangMaKe/workflow-library/issues/10) from ZhangMaKe/fix/upgrade-trivy-version ([de8c5fe](https://github.com/ZhangMaKe/workflow-library/commit/de8c5fe85bc14f859158400c089d670c81bdae49))
+
 ## [1.0.3](https://github.com/ZhangMaKe/workflow-library/compare/v1.0.2...v1.0.3) (2025-10-10)
 
 
